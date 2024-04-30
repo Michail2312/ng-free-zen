@@ -1,0 +1,68 @@
+.header {
+  width: 320px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.header__logo {
+  width: 77px;
+  height: 30px;
+}
+
+.header__nav {
+  display: none;
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__lang {
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.header__theme {
+  width: 26px;
+  height: 26px;
+}
+
+.header__burger {
+  position: relative;
+  width: 30px;
+  height: 20px;
+}
+
+.header__burger::before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 30px;
+  border: 1px solid #000000;
+  top: 0px;
+}
+
+.header__burger::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 30px;
+  border: 1px solid #000000;
+  bottom: 0px;
+}
+
+.header__burger span {
+  position: absolute;
+  display: block;
+  width: 30px;
+  border: 1px solid #000000;
+}
