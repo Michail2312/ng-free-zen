@@ -26,7 +26,12 @@
 }
 
 .header__lang {
+  line-height: 1;
   border: 1px solid #aaaaaa;
+  width: 50px;
+  appearance: none;
+  background: url('../assets/icons/arrow.svg') 32px/50% no-repeat;
+  background-size: 9px 6px;
   border-radius: 4px;
   padding: 8px;
 }
@@ -38,31 +43,26 @@
 
 .header__burger {
   position: relative;
-  width: 30px;
   height: 20px;
 }
-
-.header__burger::before {
-  position: absolute;
-  content: '';
+.header__burger span,
+.header__burger::before,
+.header__burger::after {
   display: block;
   width: 30px;
   border: 1px solid #000000;
-  top: 0px;
 }
 
+.header__burger::before,
 .header__burger::after {
   position: absolute;
   content: '';
-  display: block;
-  width: 30px;
-  border: 1px solid #000000;
-  bottom: 0px;
 }
 
-.header__burger span {
-  position: absolute;
-  display: block;
-  width: 30px;
-  border: 1px solid #000000;
+.header__burger::before {
+  top: 0;
+}
+
+.header__burger::after {
+  bottom: 0;
 }
