@@ -1,5 +1,5 @@
 .header {
-  width: 320px;
+  min-width: 320px;
   border-bottom: 1px solid #aaaaaa;
 }
 
@@ -26,14 +26,28 @@
 }
 
 .header__lang {
-  line-height: 1;
-  border: 1px solid #aaaaaa;
+  position: relative;
   width: 50px;
-  appearance: none;
-  background: url('../assets/icons/arrow.svg') 32px/50% no-repeat;
-  background-size: 9px 6px;
+  height: 30px;
+  border: 1px solid #000000;
   border-radius: 4px;
-  padding: 8px;
+  overflow: hidden;
+}
+
+.header__lang select {
+  padding-left: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.header__lang img {
+  position: absolute;
+  z-index: -1;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 9px;
+  height: 6px;
 }
 
 .header__theme {
