@@ -57,20 +57,23 @@
 
 .header__burger {
   position: relative;
-  height: 20px;
-}
-.header__burger span,
-.header__burger::before,
-.header__burger::after {
-  display: block;
   width: 30px;
-  border: 1px solid #000000;
+  height: 20px;
 }
 
 .header__burger::before,
 .header__burger::after {
   position: absolute;
   content: '';
+}
+
+.header__burger span,
+.header__burger::before,
+.header__burger::after {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
 }
 
 .header__burger::before {
