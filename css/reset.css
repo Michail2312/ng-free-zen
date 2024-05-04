@@ -39,7 +39,7 @@ button {
 select {
   appearance: none;
   color: inherit;
-  background: inherit;
+  background: none;
 }
 
 input {

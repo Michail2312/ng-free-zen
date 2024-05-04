@@ -1,5 +1,5 @@
 .header {
-  min-width: 320px;
+  width: 100%;
   border-bottom: 1px solid #aaaaaa;
 }
 
@@ -42,7 +42,6 @@
 
 .header__lang img {
   position: absolute;
-  z-index: -1;
   right: 8px;
   top: 50%;
   transform: translateY(-50%);
