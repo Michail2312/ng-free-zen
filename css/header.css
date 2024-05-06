@@ -1,12 +1,9 @@
 .header {
-  width: 100%;
-  border-bottom: 1px solid #aaaaaa;
+  border-bottom: 1px solid #aaa;
 }
 
 .header__wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 10px 15px;
 }
 
@@ -15,11 +12,8 @@
   height: 30px;
 }
 
-.header__nav {
-  display: none;
-}
-
 .header__actions {
+  margin-left: auto;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -29,7 +23,7 @@
   position: relative;
   width: 50px;
   height: 30px;
-  border: 1px solid #000000;
+  border: 1px solid #000;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -42,6 +36,7 @@
 
 .header__lang img {
   position: absolute;
+  z-index: -1;
   right: 8px;
   top: 50%;
   transform: translateY(-50%);
