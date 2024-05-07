@@ -40,8 +40,10 @@ button {
 }
 
 select {
-  appearance: none;
   color: inherit;
+  appearance: none;
+  border: none;
+  background: none;
 }
 
 input {
