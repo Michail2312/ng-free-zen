@@ -5,8 +5,4 @@
   src: url('../assets/fonts/Nunito-Regular.woff2') format('woff2');
 }
 
-html {
-  font-family: 'Nunito', sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
-}
+
