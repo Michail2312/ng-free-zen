@@ -1,0 +1,9 @@
+.clients {
+  padding: 30px 15px;
+}
+
+.clients__brands {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
