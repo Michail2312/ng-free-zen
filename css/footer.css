@@ -16,13 +16,21 @@
 }
 
 .footer__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.footer__logo {
+.footer__logo img {
+  width: 216px;
 }
 
-.footer__copy {
+.footer__text {
+  display: grid;
+  gap: 10px;
 }
 
 .footer__dev {
+  margin: 0 auto;
+  width: 130px;
 }
