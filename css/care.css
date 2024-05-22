@@ -17,9 +17,8 @@
   margin-top: 10px;
 }
 
-.care__text-block :nth-child(2) {
-  margin-top: 20px;
-}
+/* .care__text-block {}  */
+
 
 .care__image-block {
   height: 72vw;
