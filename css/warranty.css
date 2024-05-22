@@ -17,9 +17,7 @@
   margin-top: 10px;
 }
 
-.warranty__text-block :nth-child(2) {
-  margin-top: 20px;
-}
+/* .warranty__text-block{} */
 
 .warranty__image-block {
   height: 72vw;
