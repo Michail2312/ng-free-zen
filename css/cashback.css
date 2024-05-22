@@ -17,9 +17,7 @@
   margin-top: 10px;
 }
 
-.cashback__text-block :nth-child(2) {
-  margin-top: 20px;
-}
+/* .cashback__text-block{} */
 
 .cashback__button {
   margin-top: 20px;
