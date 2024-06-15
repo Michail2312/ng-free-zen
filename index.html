@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/menu.css" />
     <link rel="stylesheet" href="css/burger.css" />
@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/clients.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/column.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/form.css" />
     <title>ZEN</title>
   </head>
 
@@ -274,34 +276,33 @@
       </footer>
     </div>
 
-    <div class="modal" id="modal">
+    <div class="modal active" id="modal">
       <div class="modal__body">
         <button class="modal__close" id="close" type="button">
           <img src="./assets/icons/close.svg" alt="close" />
         </button>
         <h3 class="modal__title">Order a consultation</h3>
         <form class="form" id="order">
-          <label class="form__input">
-            <span>Name</span>
-            <input type="text" id="name" />
+          <label class="form__field">
+            <input type="text" id="name" placeholder="Name" />
           </label>
-          <label class="form__input">
-            <span>Tel.</span>
-            <input type="tel" id="tel" />
+          <label class="form__field">
+            <input type="tel" id="tel" placeholder="Tel." />
           </label>
-          <label class="form__input">
-            <span>E-mail</span>
-            <input type="email" id="email" />
+          <label class="form__field">
+            <input type="email" id="email" placeholder="E-mail" />
           </label>
-          <label class="form__select">
+          <label class="form__field">
             <span>Connection</span>
             <select id="connection">
+              <option value=""></option>
               <option value="telegram">Telegram</option>
               <option value="whatsapp">WhatsApp</option>
             </select>
           </label>
-          <label class="form__checkbox">
-            <input type="checkbox" id="policy" />
+          <label class="form__checkbox" for="policy">
+            <input class="form__checkbox-input" type="checkbox" id="policy" />
+            <span class="checkbox"></span>
             <a href="https://zen.com/policy" target="_blank">Privacy policy</a>
           </label>
           <button class="form__submit" type="submit">Submit</button>
