@@ -48,13 +48,14 @@
   display: block;
   width: 14px;
   height: 14px;
-  border: 1px solid #00a1ff;
+  border: 1px solid #aaa;
   border-radius: 2px;
 }
 
 .form__checkbox input:checked::before {
   background-image: url('/assets/icons/check.svg');
   background-position: center;
+  border: 1px solid #00a1ff;
 }
 
 .form__checkbox a {
