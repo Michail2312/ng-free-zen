@@ -15,16 +15,11 @@ h4,
 h5,
 h6 {
   font-size: inherit;
-  font-weight: 400;
 }
 
 ul,
 ol {
   list-style: none;
-}
-
-img {
-  width: 100%;
 }
 
 a {
@@ -39,15 +34,10 @@ button {
   border: none;
 }
 
+input,
 select {
-  color: inherit;
-  appearance: none;
-  border: none;
-  background: none;
-}
-
-input {
   appearance: none;
   background: none;
   border: none;
+  outline: none;
 }
